@@ -1,0 +1,175 @@
+.navheader {
+  background-color: #EEE0E0;
+  /* need to figure out how to expand header background color past the name */
+
+}
+/* put nav bar div tag here  */
+.nav {
+  text-align: center;
+  background-color: #EEE0E0;
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+  }
+  li {
+    display: inline;
+    float: left;
+  }
+  a {
+    display: block;
+    padding:10px;
+  }
+
+.logo {
+/* need to fix so centered, slightly too the right right now */
+  margin: auto;
+  width: fit-content;
+  padding-top: 50px;
+  max-width: 100%;
+  height: auto;
+
+}
+.buttons {
+  margin: auto;
+}
+
+/* Three image containers ( 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+ 
+}
+
+/* still need to make two png columns responsive */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+ 
+
+}
+.row {
+  display: flex;
+
+}
+
+.column img[src="images/Aboutbella.png"] {
+  position: relative;
+  top: 200px;
+}
+.column img[src="images/Avatars Default.png"] {
+  position: relative;
+  top: 200px;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 90px;
+ 
+}
+
+body {
+	background: #f2f0eb;
+  font-family: 'Spartan', sans-serif;
+  color: #636363; 
+  line-height: 35px;
+  text-align: center;
+  padding: 150px;
+  width: fit-content;
+
+}
+
+.aboutmebody {
+  margin: auto;
+  width: fit-content;
+  padding: 50px;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.topskills {
+  background-color: #EEE0E0;
+  color: #a12121; 
+  font-size: 70px;
+  margin: auto;
+  width: fit-content;
+  padding-top: 200px;
+}
+/* top skills header color and text size is not changing? */
+
+.skillbar {
+  margin: auto;
+  width: fit-content;
+  padding-top: 50px;
+  max-width: 100%;
+  height: auto;
+}
+.tools {
+  margin: auto;
+  width: fit-content;
+  padding-top: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* ul#nav {
+  width: 940px; 
+  list-style: none; 
+  overflow: hidden; 
+  margin: -134px auto 25px auto; */
+
+	ul#nav li {
+    width: 126px; 
+    height: 33px; 
+    float: left; 
+    padding: 13px 0 0 0;
+		background: url(/images/heroimage.png);
+    font-weight: bold; 
+    text-align: center; 
+    text-transform: uppercase;
+	}
+
+		ul#nav li a {
+      color: #616369; 
+      text-decoration: none;
+		}
+			ul#nav li a:hover {
+				color: #a12121;
+      }
+      #header {
+        height: 244px; 
+        padding: 52px 0 0 57px;
+      }
+      
+       
+  
+  
+   #footer3 {
+
+  background: url(/images/footer3.png); 
+  padding: 40px 0 0 0;
+  padding-top: 200px;
+  overflow: hidden; 
+  margin: 0 0 30px 0;
+  margin: auto;
+  width: fit-content;
+  padding-top: 50px;
+  max-width: 100%;
+  height: auto;
+
+} */
+	#footer p#copyright {
+		font-size: 12px; float: left; margin: 0 0 0 30px; color: #b8b6b2;
+	}
+	#footer p#back-top {
+		font-size: 12px; float: right; margin: 0 30px 0 0;
+	}
+		#footer a {
+		color: #a12121; text-decoration: none;
+	}
+		#footer a:hover {
+			color: #671111;
+		}
